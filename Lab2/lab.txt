@@ -1,0 +1,21 @@
+TODO list 
+
+[
+    {
+        id: unique,
+        title: string,
+        description : string
+    }
+]
+
+TODO => CRUD
+
+GET /todos => return all todos without description
+
+GET /todos/{todo-id} => return specific todo with description
+
+POST /todos => add new todo (todo info => request body) => DON't SEND ID IN REQUEST BODY
+
+DELETE /todos/{todo-id} => delete specific todo
+
+PUT /todos/{todo-id} => update specific todo (new todo info => request body)

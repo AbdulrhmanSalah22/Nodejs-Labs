@@ -1,0 +1,11 @@
+USERS => CRUD
+
+GET /users => return all users
+GET /users/{user-id} => return specific user
+
+POST /users => add new user (user info => request body)
+
+DELETE /users/{user-id} => delete specific user
+
+PUT /users/{user-id} => update specific user (new user info => request body)
+PATCH /users/{user-id} => update specific user (new user info => request body)
